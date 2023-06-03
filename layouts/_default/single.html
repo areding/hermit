@@ -13,7 +13,7 @@
 {{ end }}
 
 {{ define "main" }}
-	{{- if (or .Params.images .Params.featuredImg) }}
+	{{- if (or .Params.image .Params.images .Params.featuredImg) }}
 	<div class="bg-img"></div>
 	{{- end }}
 	<main class="site-main section-inner thin animated fadeIn faster">
